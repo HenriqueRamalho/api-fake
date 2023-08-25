@@ -23,7 +23,7 @@ jobs:
       - run: npm ci
       - run: npm run test  
   push_to_docker_hub_steps: 
-    run-on: ubuntu-latest
+    runs-on: nubutu-latest
     needs: [build_steps]
 
     steps:
